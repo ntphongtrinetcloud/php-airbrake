@@ -97,7 +97,7 @@ class Notice extends Record
      **/
     protected function array2Node($parentNode, $key, $params)
     {
-        if (count($params) == 0) {
+        if (empty($params)) {
             return;
         }
 
